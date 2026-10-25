@@ -1,0 +1,14 @@
+{
+  "name": "repro-swc-coverage-synthetic-spans",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction of line-zero Istanbul metadata from SWC TypeScript lowering",
+  "scripts": {
+    "test": "node repro.cjs",
+    "overload": "node repro.cjs --overload"
+  },
+  "dependencies": {
+    "@swc/core": "1.16.18",
+    "swc-plugin-coverage-instrument": "0.0.33"
+  }
+}
